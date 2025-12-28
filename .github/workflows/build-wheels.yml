@@ -47,5 +47,6 @@ jobs:
         uses: actions/download-artifact@v7
         with:
           path: dist
+          merge-multiple: true
       - name: Publish distribution to PyPI
         run: uv publish
