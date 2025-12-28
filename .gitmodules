@@ -1,0 +1,3 @@
+[submodule "lib/QQMusicDES"]
+	path = lib/QQMusicDES
+	url = https://github.com/Maxr1998/QQMusicDES.git
