@@ -13,5 +13,8 @@ license = "MIT"
 requires-python = ">=3.10"
 dependencies = []
 
+[tool.cibuildwheel]
+before-all = "uname -a"
+
 [tool.setuptools]
 package-dir = { "" = "src" }
