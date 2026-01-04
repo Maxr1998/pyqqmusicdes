@@ -19,4 +19,8 @@ extension = Extension(
     ],
 )
 
-setup(ext_modules=cythonize([extension]))
+setup(
+    ext_modules=cythonize([extension]),
+    packages=["pyqqmusicdes"],
+    package_data={"pyqqmusicdes": ["*.pyi"]},
+)
